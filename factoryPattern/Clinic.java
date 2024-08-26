@@ -27,7 +27,7 @@ public class Clinic {
                 petFile.setPetId("D01");
                 petFile.setPetName("Bantay");
                 petFile.setPet(pet);
-                ((Dog) pet).setBreed("German Shepperd");
+                ((Dog) pet).setBreed("German Shepperd"); // dog breed
 
                 System.out.println("Pet id is " + petFile.getPetId());
                 System.out.println("Pet name is " + petFile.getPetName());
@@ -39,7 +39,7 @@ public class Clinic {
                 petFile.setPetId("C01");
                 petFile.setPetName("Muning");
                 petFile.setPet(pet);
-                ((Cat) pet).setNoOfLives(9);
+                ((Cat) pet).setNoOfLives(9); // no. of lives
 
                 System.out.println("Pet id is " + petFile.getPetId());
                 System.out.println("Pet name is " + petFile.getPetName());
